@@ -19,15 +19,43 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        h1 {
+        h1, h2 {
             color: #333;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .featured {
+            background-color: #f8f8f8;
+        }
+        .contact-info {
+            background-color: #e8f4fc;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to My Page</h1>
-        <p>This is a simple welcome page created with HTML and CSS.</p>
+        
+        <div class="section">
+            <h2>About Us</h2>
+            <p>We are a passionate team dedicated to creating amazing web experiences. Our goal is to deliver high-quality content and services to our visitors.</p>
+        </div>
+
+        <div class="section featured">
+            <h2>Featured Content</h2>
+            <p>Check out our latest articles and updates. We regularly post interesting content about web development, design, and technology.</p>
+        </div>
+
+        <div class="section contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: info@example.com</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Address: 123 Web Street, Digital City, 12345</p>
+        </div>
     </div>
 </body>
 </html>
